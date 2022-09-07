@@ -213,7 +213,7 @@
         <section class="container mt-5">
             <div class="d-lg-flex d-md-flex gap-5 align-items-center">
                 <div>
-                    <img style="width: 100%;" src="images/working.png" alt="">
+                    <img class="img-fluid" src="images/working.png" alt="">
                 </div>
                 <div style="width: 100%;">
                     <h1>Explore The <br> elearning Institute</h1>
@@ -225,14 +225,16 @@
                         Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
                         Internet tend to repeat predefined.
                     </p>
-                    <div class="d-flex gap-5">
-                        <div>
-                            <h1>3.2K+</h1>
-                            <p>Online Course</p>
-                        </div>
-                        <div>
-                            <h1>600+</h1>
-                            <p>Expert member</p>
+                    <div class="d-lg-flex gap-5">
+                        <div class="d-flex gap-5">
+                            <div>
+                                <h1>3.2K+</h1>
+                                <p>Online Course</p>
+                            </div>
+                            <div>
+                                <h1>600+</h1>
+                                <p>Expert member</p>
+                            </div>
                         </div>
                         <div>
                             <h1>1K+</h1>
@@ -244,6 +246,56 @@
             </div>
         </section>
         <!-- Elearning Institute Section End -->
+        <!-- Bonus Section Start -->
+        <section class="container bg-primary mt-5 mb-5">
+            <div style="height: 300px;" class="d-lg-flex gap-5 align-items-center">
+                <div class="p-3 text-white">
+                    <h1 class="text-bold">Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the <br> readable content of a
+                        page when looking at its layout</p>
+                </div>
+                <div class="ms-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-white bg-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">If you want to learn Programming fill
+                                        the form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Agree</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bonus Section End -->
     </main>
 
 
