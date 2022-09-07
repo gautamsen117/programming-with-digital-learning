@@ -6,3 +6,10 @@ body{
 .star{
     color: #FBBF24;
 }
+.bg-footer{
+    background-color: #161616;
+}
+.social-icon{
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
